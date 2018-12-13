@@ -1,21 +1,3 @@
-
-import random
-
-def should_roll(input):
-    if input == True:
-        num = str(roll_dice())
-        print('Your roll is ', num, '. Would you like to roll again?')
-
-    else:
-        print("game over bitches")
-
-def roll_dice():
-    ran_num = random.randint(1, 6)
-    return ran_num
-
-should_roll(False)
-
-
 '''
 The Goal: Like the title suggests, this project involves writing a program that simulates rolling dice.
 When the program runs, it will randomly choose a number between 1 and 6.
@@ -31,3 +13,18 @@ Concepts to keep in mind:
     Print
     While Loops
 '''
+import random
+
+def should_roll(input):
+    if input == True:
+        num = str(roll_dice())
+        print('Your roll is ', num, '. Would you like to roll again?')
+
+    else:
+        print("game over bitches")
+
+def roll_dice():
+    ran_num = random.randint(1, 6)
+    return ran_num
+
+should_roll(False)

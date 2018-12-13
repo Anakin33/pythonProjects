@@ -1,27 +1,3 @@
-
-import random
-
-def get_user_guess():
-    user_guess = input("What is my number? Must choose between 1-10. ")
-    return int(user_guess)
-
-def compare_user_guess():
-    guess = get_user_guess()
-    correct = generate_random_number()
-    if (guess > 10 or guess < 1):
-       print('You enter an invalid number... Try again pleeblet')
-    elif (guess == correct):
-        print("OMGGGGG YOU GUESSED it")
-    else:
-        print('You were wrong. Your number was', guess, 'and the correct number was', correct)
-
-
-def generate_random_number():
-    random_num = random.randint(1, 10)
-    return random_num
-
-#print(compareUserGuess())
-
 '''
 
 The Goal: Similar to the first project, this project also uses the random module in Python.
@@ -47,3 +23,26 @@ Jumping off the first project, this project continues to build up the base knowl
  user-inputted data at its very simplest.
 With user input, we start to get into a little bit of variability.
 '''
+import random
+
+def get_user_guess():
+    user_guess = input("What is my number? Must choose between 1-10. ")
+    return int(user_guess)
+
+def compare_user_guess():
+    guess = get_user_guess()
+    correct = generate_random_number()
+    if (guess > 10 or guess < 1):
+       print('You enter an invalid number... Try again pleeblet')
+    elif (guess == correct):
+        print("OMGGGGG YOU GUESSED it")
+    else:
+        print('You were wrong. Your number was', guess, 'and the correct number was', correct)
+
+
+def generate_random_number():
+    random_num = random.randint(1, 10)
+    return random_num
+
+#print(compareUserGuess())
+
