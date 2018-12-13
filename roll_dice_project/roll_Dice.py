@@ -27,4 +27,5 @@ def roll_dice():
     return random.randint(1, 6)
 
 
-should_roll(False)
+if __name__ == '__main__':
+    should_roll(True)
