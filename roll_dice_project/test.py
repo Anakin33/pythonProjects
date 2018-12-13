@@ -1,3 +1,3 @@
 print("Before import")
-import rollDice
+import rollDiceProject.rollDice
 print("After import")
