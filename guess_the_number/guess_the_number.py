@@ -25,11 +25,11 @@ With user input, we start to get into a little bit of variability.
 '''
 import random
 
-def get_user_guess():
+def get_user_guess()-> None:
     user_guess = input("What is my number? Must choose between 1-10. ")
     return int(user_guess)
 
-def compare_user_guess():
+def compare_user_guess() -> None:
     guess = get_user_guess()
     correct = generate_random_number()
     if (guess > 10 or guess < 1):
@@ -40,10 +40,8 @@ def compare_user_guess():
         print(f'You were wrong. Your number was {guess} and the correct number was {correct}')
 
 
-def generate_random_number():
-    random_num = random.randint(1, 10)
-    return random_num
+def generate_random_number() -> None:
+    return random.randint(1, 10)
 
-
-
-print(compare_user_guess())
+if __name__ == '__main__':
+    compare_user_guess()

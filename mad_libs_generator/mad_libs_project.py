@@ -26,7 +26,8 @@ def mad_libs():
     numb = str(input("Write a number "))
     print(f'I am a {noun} and I like to{verb} every {numb} days with my {adj} friends')
 
-mad_libs()
+if __name__ == '__main__':
+    mad_Libs()
 
 
 

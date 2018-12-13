@@ -1,4 +1,4 @@
 print("Before import")
-from roll_dice_project import roll_dice
-roll_dice.should_roll(True)
+from roll_dice_project.roll_dice import should_roll
+should_roll(True)
 print("After import")
