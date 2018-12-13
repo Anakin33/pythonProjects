@@ -1,11 +1,11 @@
-def madLibs():
+def mad_libs():
     noun = input("Write a noun ")
     verb = input("Write a verb ")
     adj = input("Write a adjective ")
-    numb  = str(input("Write a number "))
+    numb = str(input("Write a number "))
     print('I am a', noun, "and I like to",verb,'every',numb,'days','with my',adj,'friends')
 
-madLibs()
+mad_libs()
 
 
 

@@ -1,13 +1,13 @@
 
 import random
 
-def getUserGuess():
-    userGuess = input("What is my number? Must choose between 1-10. ")
-    return int(userGuess)
+def get_user_guess():
+    user_guess = input("What is my number? Must choose between 1-10. ")
+    return int(user_guess)
 
-def compareUserGuess():
-    guess = getUserGuess()
-    correct = generateRandomNumber()
+def compare_user_guess():
+    guess = get_user_guess()
+    correct = generate_random_number()
     if (guess > 10 or guess < 1):
        print('You enter an invalid number... Try again pleeblet')
     elif (guess == correct):
@@ -16,9 +16,9 @@ def compareUserGuess():
         print('You were wrong. Your number was', guess, 'and the correct number was', correct)
 
 
-def generateRandomNumber():
-    randomNum = random.randint(1, 10)
-    return randomNum
+def generate_random_number():
+    random_num = random.randint(1, 10)
+    return random_num
 
 #print(compareUserGuess())
 
