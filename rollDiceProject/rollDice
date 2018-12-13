@@ -15,7 +15,7 @@ Concepts to keep in mind:
 '''
 import random
 
-def should_roll = (input: bool) -> num:
+def should_roll (input: bool) -> int:
     if input == True:
         num = str(roll_dice())
         print(f'Your roll is {num}. Would you like to roll again?')
