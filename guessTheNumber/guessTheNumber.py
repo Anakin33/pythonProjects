@@ -37,12 +37,13 @@ def compare_user_guess():
     elif (guess == correct):
         print("OMGGGGG YOU GUESSED it")
     else:
-        print('You were wrong. Your number was', guess, 'and the correct number was', correct)
+        print(f'You were wrong. Your number was {guess} and the correct number was {correct}')
 
 
 def generate_random_number():
     random_num = random.randint(1, 10)
     return random_num
 
-#print(compareUserGuess())
 
+
+print(compare_user_guess())

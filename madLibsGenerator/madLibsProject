@@ -24,7 +24,7 @@ def mad_libs():
     verb = input("Write a verb ")
     adj = input("Write a adjective ")
     numb = str(input("Write a number "))
-    print('I am a', noun, "and I like to",verb,'every',numb,'days','with my',adj,'friends')
+    print(f'I am a {noun} and I like to{verb} every {numb} days with my {adj} friends')
 
 mad_libs()
 

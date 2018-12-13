@@ -18,7 +18,7 @@ import random
 def should_roll(input):
     if input == True:
         num = str(roll_dice())
-        print('Your roll is ', num, '. Would you like to roll again?')
+        print(f'Your roll is {num}. Would you like to roll again?')
 
     else:
         print("game over bitches")
