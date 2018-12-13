@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19d2c6e5-a661-4df6-917e-6f0f015d2af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guessTheNumber/guessTheNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diceProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diceProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/madLibsGenerator/madLibsProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollDice" beforeDir="false" afterPath="$PROJECT_DIR$/rollDiceProject/rollDice" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guessTheNumber/guessTheNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="315">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/madLibsGenerator/madLibsProject">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -54,6 +60,7 @@
         <option value="$PROJECT_DIR$/rollDice" />
         <option value="$PROJECT_DIR$/rollDiceProject/rollDice" />
         <option value="$PROJECT_DIR$/guessTheNumber/guessTheNumber.py" />
+        <option value="$PROJECT_DIR$/madLibsGenerator/madLibsProject" />
       </list>
     </option>
   </component>
@@ -79,6 +86,11 @@
               <item name="starterProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="starterProjects" type="462c0819:PsiDirectoryNode" />
               <item name="guessTheNumber" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="starterProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="starterProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="madLibsGenerator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="starterProjects" type="b2602c69:ProjectViewProjectNode" />
@@ -114,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guessTheNumber">
+  <component name="RunManager" selected="Python.madLibsProject">
     <configuration name="guessTheNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diceProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +140,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guessTheNumber/guessTheNumber.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="madLibsProject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diceProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/madLibsGenerator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/madLibsGenerator/madLibsProject" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,6 +213,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.madLibsProject" />
         <item itemvalue="Python.guessTheNumber" />
         <item itemvalue="Python.rollDice" />
         <item itemvalue="Python.scratch" />
@@ -240,8 +274,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/guessTheNumber/guessTheNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="315">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madLibsGenerator/madLibsProject">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
