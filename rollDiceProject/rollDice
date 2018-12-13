@@ -1,18 +1,19 @@
 
 import random
+
 def shouldRoll(input):
     if input == True:
         num = str(rollDice())
-        print('Your roll is ',num, '. Would you like to roll again?')
+        print('Your roll is ', num, '. Would you like to roll again?')
 
     else:
         print("game over bitches")
 
 def rollDice():
-    ranNum = random.randint(1,6)
+    ranNum = random.randint(1, 6)
     return ranNum
 
-shouldRoll(True)
+shouldRoll(False)
 
 
 '''
