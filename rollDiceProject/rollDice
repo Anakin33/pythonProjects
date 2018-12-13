@@ -24,7 +24,7 @@ def should_roll(input):
         print("game over bitches")
 
 def roll_dice():
-    ran_num = random.randint(1, 6)
-    return ran_num
+    return random.randint(1, 6)
+
 
 should_roll(False)
