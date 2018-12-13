@@ -8,11 +8,10 @@ def getUserGuess():
 def compareUserGuess():
     guess = getUserGuess()
     correct = generateRandomNumber()
-    if(guess == correct):
-        print("OMGGGGG YOU GUESSED it")
-    elif (guess > 10 or guess < 1):
+    if (guess > 10 or guess < 1):
        print('You enter an invalid number... Try again pleeblet')
-
+    elif (guess == correct):
+        print("OMGGGGG YOU GUESSED it")
     else:
         print('You were wrong. Your number was', guess, 'and the correct number was', correct)
 
